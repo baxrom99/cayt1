@@ -1,0 +1,154 @@
+
+
+
+.menyu,.text_logo{
+    background-color:#F5ECDB;
+}
+
+.text_logo{
+    height: 400px;
+}
+
+
+.text{
+    padding-top: 100px;
+    text-align: center;
+}
+.do{
+    color: red;
+}
+
+
+
+.icon{
+    color:#F26200;
+}
+.icon2{
+    color:#F26200;
+    padding: 10px;
+}
+
+.content{
+    background-color: white;
+    width: 100%;
+}
+
+
+
+.design{
+    padding:10px ;
+}
+
+.card{
+    border: none;
+}
+
+.text_img{
+    border-radius: 50%;
+    width: 67px;
+
+    margin-left: 210px;
+    margin-top: -100px;
+}
+
+.card_text{
+    background: #f5ecdb;
+    transition: all .3s linear;
+}
+.card_text:hover{
+    /* background-color: black; */
+    color: white;
+}
+
+.blog_clayder{
+    width: 100%;
+
+    background: #f5ecdb;
+}
+
+.company{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_company{
+    height: 10%;
+}
+.logo{ 
+    opacity: .3;
+    margin-top: 5%;
+    width: 70%;
+    transition: all .3s linear;
+}
+.logo:hover{ 
+    opacity: .9;
+}
+
+@media screen and (min-width:411px){
+    .card_text{
+        width: 50%;
+    }
+}
+.card3{
+    display: flex;
+    justify-content: center;
+}
+
+.kartinka{
+    width: 60px;
+    display: flex;
+    position: relative;
+    left: 70px;
+    top: 10px;
+    border-radius: 50%;
+}
+.card_title {
+    width: 200px;
+    margin-top: -70px;
+}
+
+.card{
+    background: #f5ecdb;
+    align-items: center;
+    transition: all .3s linear;
+    border: none !important;
+}
+
+.card:hover{
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    height: auto;
+    background: #f5ecdb;
+}
+.iconka{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+
+.text_iconka{
+    width: 100%;
+    text-align: center;
+}
+.colorib{
+    background-color: #F26200;
+}
+.cerdsa{
+    color: red;
+}
+.img-fluid{
+    transition: all .3s linear;
+}
+
+.img-fluid:hover{
+  transform: scale(1.05);
+  border-radius: 40px 0 40px 0;
+}
+
